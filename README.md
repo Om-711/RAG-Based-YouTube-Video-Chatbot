@@ -4,22 +4,12 @@ A Retrieval-Augmented Generation (RAG) chatbot that allows users to interact wit
 
 ---
 
-##  Features
-
-- **YouTube Transcript Retrieval**  
-  Automatically fetches video captions (English/Hindi) using `YouTubeTranscriptApi`.
-
-- **Vector-Based Retrieval (FAISS)**  
-  Splits transcript into chunks, generates embeddings with Google Generative AI Embeddings, and indexes them in FAISS for semantic search.
-
-- **Conversational LLM Integration**  
-  Chat with the video using an LLM (Gemini via `ChatGoogleGenerativeAI`) with multi-turn memory (`ConversationBufferMemory`).
-
-- **Retrieval-Augmented Generation (RAG)**  
-  Incorporates both transcript context and optional external sources for answering user queries.
-
-- **Extensible with External Knowledge APIs**  
-  Ideal for plugging in external APIs like Wikipedia, Wikidata, or custom KB for unanswered questions.
+## ✨ Features  
+- 📺 **YouTube Transcript Retrieval** – fetches captions in English/Hindi using `YouTubeTranscriptApi`.  
+- 🔍 **Vector Search with FAISS** – chunks transcript, generates embeddings with Google Generative AI, and retrieves relevant segments.  
+- 🤖 **Conversational LLM (Gemini)** – answers questions using transcript context and remembers chat history.  
+- 🔄 **Retrieval-Augmented Generation (RAG)** – ensures answers are grounded in real transcript data.  
+- 🌐 **Streamlit Interface** – easy-to-use UI to paste video links and chat live with the video.  
 
 ---
 
