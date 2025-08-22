@@ -1,6 +1,6 @@
 # RAG-Based YouTube Video Chatbot
 
-A Retrieval-Augmented Generation (RAG) chatbot that allows users to interact with YouTube videos by posting a video link and asking questions. The system retrieves transcript content via embeddings, and—optionally—leverages external knowledge to answer questions beyond the transcript context.
+A Retrieval-Augmented Generation (RAG) chatbot that allows users to interact with YouTube videos by posting a video link and asking questions. The system retrieves transcript content via embeddings, and optionally leverages external knowledge to answer questions beyond the transcript context.
 
 ---
 
