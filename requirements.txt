@@ -1,0 +1,7 @@
+streamlit
+python-dotenv
+pathlib
+google-generativeai 
+defusedxml
+youtube-transcript-api
+langchain-community
